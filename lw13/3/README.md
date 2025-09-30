@@ -2,15 +2,16 @@
 Произведите сборку программы Split из разделов проекта, приведенных ниже. Допишите недостающие разделы DP1.1. и DP1.2.1. Проверьте выполнение.
 
 ### Итоговое выполнение:
+```
 INPUT:
 123456
 789
 
 OUTPUT:
 135792468
-
+```
 ### Разделы
-
+```
 DP1
 PROGRAM Split(INPUT,OUTPUT);
   {Копирует INPUT в OUTPUT,сначала нечетные,а затем четные
@@ -27,15 +28,15 @@ BEGIN
   CopyOut(Evens,Ch);
   WRITELN
 END.
-
-
+```
+```
 DP1.1
 PROCEDURE CopyOut(VAR F1: TEXT; VAR Ch: CHAR);
 BEGIN
   {Копируем F1 в OUTPUT}
 END;
-
-
+```
+```
 DP1.2
 {Разделяет INPUT в Odds и Evens}
   BEGIN
@@ -56,6 +57,7 @@ DP1.2
     WRITELN(Odds);
     WRITELN(Evens)
   END;
+```
 
 
 DP1.2.1

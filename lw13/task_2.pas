@@ -52,9 +52,15 @@ BEGIN
 END;
 
 BEGIN
+  Sorted := 'N';
   CopyFile(INPUT, F1);
-  CopyAndSwap(F1, F2, Sorted);
-  WRITELN('Отсортирован ли список: ', Sorted);
-  WRITELN('Список после одного цикла сортировки: ');
-  CopyFile(F2, OUTPUT)
+  
+  WHILE Sorted = 'N' 
+  DO
+    BEGIN
+        CopyAndSwap(F1, F2, Sorted);
+        CopyFile(F2, F1)
+    END;
+  
+  CopyFile(F1, OUTPUT)
 END.

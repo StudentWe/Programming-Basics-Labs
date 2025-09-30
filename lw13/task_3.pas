@@ -1,7 +1,4 @@
 PROGRAM BubbleSort(INPUT, OUTPUT);
-VAR
-  F1, F2: TEXT;
-  Sorted: CHAR;
 
 PROCEDURE CopyFile(VAR InFile, OutFile: TEXT);
 VAR

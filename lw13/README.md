@@ -16,15 +16,12 @@ c) [#10]
 PROCEDURE BubbleSort(VAR InFile, OutFile: TEXT)
 
 ### Итоговое выполнение:
-INPUT:34251
-OUTPUT:12345
+INPUT: 34251
+OUTPUT: 12345
 
 
-INPUT:11523
-OUTPUT:11235
-
-
-
+INPUT: 11523
+OUTPUT: 11235
 
 ### Разделы проекта для BubbleSort
 

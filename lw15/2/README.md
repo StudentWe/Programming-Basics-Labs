@@ -5,7 +5,8 @@
 #### Итоговое выполнение
 ```
 INPUT:Hello    world   this   is   a   test
-OUTPUT:Вход:Hello    world   this   is   a   test
+OUTPUT:
+Вход:Hello    world   this   is   a   test
 Hello    world   this   is   a   test
 Выход:Hello world this is a test
 ```

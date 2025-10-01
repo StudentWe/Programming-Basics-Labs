@@ -4,8 +4,10 @@
 
 #### Итоговое выполнение
 ```
-INPUT:123321321
-OUTPUT:Количество символов: 009
+INPUT:Hello    world   this   is   a   test
+OUTPUT:Вход:Hello    world   this   is   a   test
+Hello    world   this   is   a   test
+Выход:Hello world this is a test
 ```
 
 Разделы проекта программы TestRemove
